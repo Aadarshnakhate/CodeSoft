@@ -10,7 +10,7 @@ public class RandomNo {
         Random r=new Random();
         System.out.println("Random No.:");
         Rand=r.nextInt(100);
-        System.out.println(Rand);
+    
         while (Rand!=num){
 
             Scanner s=new Scanner(System.in);
